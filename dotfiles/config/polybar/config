@@ -1,0 +1,146 @@
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[color]
+
+
+[bar/top]
+monitor = DP-4
+
+width = 100%
+height = 35 
+offset-x = 0
+offset-y = -1 
+;bottom = true
+
+background = #5a000000
+foreground = #eee
+
+underline-size = 2
+underline-color = #eee
+
+spacing = 1
+padding-left = 0
+padding-right = 0
+module-margin-left = 0 
+module-margin-right = 0
+
+font-0 = "Misc Termsyn:size=12;1"
+font-1 = "Wuncon Siji:size=12;1"
+
+#tray-position = right
+#tray-padding = 0
+#tray-maxsize = 16
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+modules-center = xwindow
+modules-left = bspwm
+modules-right = cpu memory battery volume date
+
+
+[module/xwindow]
+type = internal/xwindow
+format = <label>
+label = %title%
+label-maxlen = 75
+
+[module/bspwm]
+type = internal/bspwm
+
+format = <label-state> <label-mode>
+
+ws-icon-0 = tty;
+ws-icon-1 = internet;
+ws-icon-2 = code;
+ws-icon-3 = coms;
+ws-icon-4 = media;
+ws-icon-5 = other;
+ws-icon-default = 
+
+label-focused = %icon%
+label-focused-background = #88000000
+label-focused-underline= #ddd
+label-focused-padding = 4
+
+label-occupied = %icon%
+label-occupied-padding = 4
+
+label-urgent = %icon%
+label-urgent-padding = 4
+
+label-empty = %icon%
+label-empty-foreground = #44ffffff
+label-empty-padding = 4
+
+
+[module/cpu]
+type = internal/cpu
+label = %percentage%%
+interval = 2
+format-prefix = " "
+
+
+[module/memory]
+type = internal/memory
+interval = 2
+label = %mb_used%
+format-prefix = " "
+
+
+[module/battery]
+type = internal/battery
+full-at = 98
+time-format = %H:%M
+battery = BAT0
+adapter = AC
+
+format-charging = <animation-charging> <label-charging>
+label-charging = %percentage%% (%time%)
+
+format-discharging = <ramp-capacity> <label-discharging>
+label-discharging = %percentage%% (%time%)
+
+format-full = <label-full>
+format-full-prefix = " "
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-framerate = 750
+
+
+[module/volume]
+type = internal/volume
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 18
+mapped = true
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+
+format-muted-prefix = " "
+label-muted = MUTE
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+[module/date]
+type = internal/date
+interval = 30
+label =  %time%
+time =  %H:%M
+time-alt =  %Y-%m-%d
+

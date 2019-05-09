@@ -1,0 +1,40 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  ignoreempty: false
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  d_alacritty:
+    dst: ~/.config/alacritty
+    src: config/alacritty
+  d_polybar:
+    dst: ~/.config/polybar
+    src: config/polybar
+  f_bspwmrc:
+    dst: ~/.config/bspwm/bspwmrc
+    src: config/bspwm/bspwmrc
+  f_compton.conf:
+    dst: ~/.config/compton/compton.conf
+    src: config/compton/compton.conf
+  f_sxhkdrc:
+    dst: ~/.config/sxhkd/sxhkdrc
+    src: config/sxhkd/sxhkdrc
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
+profiles:
+  desktop:
+    dotfiles:
+    - f_zshrc
+    - d_polybar
+    - f_compton.conf
+    - f_sxhkdrc
+    - f_bspwmrc
+    - d_alacritty
