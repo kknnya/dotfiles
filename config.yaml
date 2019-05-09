@@ -26,6 +26,9 @@ dotfiles:
   f_sxhkdrc:
     dst: ~/.config/sxhkd/sxhkdrc
     src: config/sxhkd/sxhkdrc
+  f_xinitrc:
+    dst: ~/.xinitrc
+    src: xinitrc
   f_zshrc:
     dst: ~/.zshrc
     src: zshrc
@@ -38,3 +41,4 @@ profiles:
     - f_sxhkdrc
     - f_bspwmrc
     - d_alacritty
+    - f_xinitrc
