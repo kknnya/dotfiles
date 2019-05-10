@@ -2,32 +2,32 @@
 margin-top = 0
 margin-bottom = 0
 
-[color]
 
-
-[bar/top]
+[bar/left]
 monitor = DP-4
 
 width = 100%
-height = 35 
-offset-x = 0
-offset-y = -1 
-;bottom = true
+height = 27
+;offset-x = 25%
+;offset-y = 0%
+fixed-center = true
 
-background = #5a000000
-foreground = #eee
+background = #060606
+foreground = #c86ad4
 
-underline-size = 2
-underline-color = #eee
+line-size = 2
+line-color = #c86ad4
+underline-size = 4
+underline-color = #c86ad4
 
 spacing = 1
-padding-left = 0
-padding-right = 0
+padding-left = 3
+padding-right = 3
 module-margin-left = 0 
 module-margin-right = 0
 
-font-0 = "Misc Termsyn:size=12;1"
-font-1 = "Wuncon Siji:size=12;1"
+font-0 = "Lucy Tewi:size=8;1"
+font-1 = "Wuncon Siji:size=10;1"
 
 #tray-position = right
 #tray-padding = 0
@@ -38,11 +38,48 @@ scroll-down = bspwm-deskprev
 
 modules-center = xwindow
 modules-left = bspwm
-modules-right = cpu memory battery volume date
+modules-right = date
 
+[bar/right]
+monitor = DVI-D-0
+
+width = 100%
+height = 27
+;offset-x = 25%
+;offset-y = 0%
+fixed-center = true
+
+background = #060606
+foreground = #c86ad4
+
+font-0 = "Lucy Tewi:size=8;1"
+font-1 = "Wuncon Siji:size=10;1"
+
+line-size = 2
+line-color = #c86ad4
+underline-size = 4
+underline-color = #c86ad4
+
+spacing = 1
+padding-left = 3
+padding-right = 3
+module-margin-left = 0 
+module-margin-right = 0
+
+#tray-position = right
+#tray-padding = 0
+#tray-maxsize = 16
+
+scroll-up = bspwm-desknext
+scroll-down = bspwm-deskprev
+
+modules-center = xwindow
+modules-left = bspwm
+modules-right = date
 
 [module/xwindow]
 type = internal/xwindow
+label-font = 0
 format = <label>
 label = %title%
 label-maxlen = 75
@@ -52,17 +89,17 @@ type = internal/bspwm
 
 format = <label-state> <label-mode>
 
-ws-icon-0 = tty;
-ws-icon-1 = internet;
-ws-icon-2 = code;
-ws-icon-3 = coms;
-ws-icon-4 = media;
-ws-icon-5 = other;
-ws-icon-default = 
+ws-icon-0 = 1;1
+ws-icon-1 = 2;2
+ws-icon-2 = 3;3
+ws-icon-3 = 4;4
+ws-icon-4 = 5;5
+ws-icon-5 = 6;6
+ws-icon-default = ♥
 
 label-focused = %icon%
-label-focused-background = #88000000
-label-focused-underline= #ddd
+;label-focused-background = #88000000
+label-focused-underline= #ae81ff
 label-focused-padding = 4
 
 label-occupied = %icon%

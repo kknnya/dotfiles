@@ -94,5 +94,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias bonsai="~/.local/bin/bonsai/bonsai.sh"
+alias sxconf="vim ~/.config/sxhkd/sxhkdrc"
+alias bspconf="vim ~/.config/bspwm/bspwmrc"
+alias polyconf="vim ~/.config/polybar/config"
 alias awoo="echo 'awoo'"
 alias dotdrop="~/.config/dotdrop/dotdrop.sh --cfg=~/.config/dotdrop/config.yaml"
