@@ -23,9 +23,15 @@ dotfiles:
   f_compton.conf:
     dst: ~/.config/compton/compton.conf
     src: config/compton/compton.conf
+  f_make.conf:
+    dst: /etc/portage/make.conf
+    src: etc/portage/make.conf
   f_sxhkdrc:
     dst: ~/.config/sxhkd/sxhkdrc
     src: config/sxhkd/sxhkdrc
+  f_vimrc:
+    dst: ~/.vimrc
+    src: vimrc
   f_xinitrc:
     dst: ~/.xinitrc
     src: xinitrc
@@ -42,3 +48,7 @@ profiles:
     - f_bspwmrc
     - d_alacritty
     - f_xinitrc
+  nekobox:
+    dotfiles:
+    - f_vimrc
+    - f_make.conf
