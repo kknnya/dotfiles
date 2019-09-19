@@ -299,3 +299,24 @@
 # required by games-util/lutris-0.5.2.1::gentoo
 # required by lutris (argument)
 >=media-libs/harfbuzz-2.3.1 icu
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-ide-8.2::gentoo
+# required by dev-java/netbeans-nb-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo
+# required by netbeans (argument)
+>=dev-java/junit-4.12-r1 source
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-ide-8.2::gentoo
+# required by dev-java/netbeans-nb-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo
+# required by netbeans (argument)
+>=dev-java/swing-layout-1.0.4-r1 source
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-harness-8.2::gentoo
+# required by dev-java/netbeans-ide-8.2::gentoo
+# required by dev-java/netbeans-nb-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo
+# required by netbeans (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.202 javafx
