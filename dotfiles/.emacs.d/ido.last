@@ -1,0 +1,33 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/kkn/205CDE/labs/" . "03 HTML5/")
+ ("/home/kkn/205CDE/" . "labs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/kkn/205CDE/labs/03 HTML5/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "comparison.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/kkn/205CDE/labs/03 HTML5/" (23984 32736 268011 733000) "./" "../" "worksheet.md" "comparison.html" "audio/" "img/")
+
+ ("/home/kkn/205CDE/labs/02 Git Remotes/" (23984 32736 267011 680000) "./" "../" "worksheet.md")
+
+ ("/home/kkn/205CDE/labs/" (23984 32736 277012 201000) ".DS_Store" "./" "04 CSS3 and Bootstrap/" "07 JavaScript Language/" "10 JavaScript Modules/" "02 Git Remotes/" "05 HTML5 forms/" "14 Modular PHP/" "03 HTML5/" "08 JSON and AJAX/" "19 Document Databases/" "11 Unit Testing/" "15 RESTful API/" "17 CodeIgniter/" "../" "09 Single-Page Applications/" "06 JavaScript Tools/" "12 Introduction to PHP/" "13 Security/" "01 Introduction to Git/" "18 CodeIgniter Rest Server and testing/" "16 Model-View-Controller/")
+
+ ("/home/kkn/205CDE/" (23984 32736 267011 680000) ".DS_Store" "./" ".git/" ".gitignore" "labs/" "../")
+
+ ("/home/kkn/" (23985 18096 54881 818000) "#testorg#" ".m2/" ".webclipse/" ".nv/" "./" ".wget-hsts" "###orgtest.org###" "test.html" ".emacs.d/" ".gitconfig" ".mozilla/" "205CDE/" ".subversion/" ".swt/" ".zlogin" ".zshrc.zwc" "dotfiles/" ".bash_history" "mysql-connector-java-8.0.17/" "bin/" ".viminfo" ".nvidia-settings-rc" "~/" ".mono/" "data/" ".bash_logout" ".mysql_history" ".Xauthority" ".steam/" "#asd#" ".vimrc" ".#csharptest" "#testing.java#" ".saves/" ".zshrc.pre-oh-my-zsh" ".fehbg" "teabag@10.0.0.7" "#orgtest.org#" ".p2/" ".zsh_history_bad" "Webapps/" ".zcompdump-nekobox-5.6.2" ".bash_profile" ".tooling/" ".zshrc.omz-uninstalled-20190508233808" ".zshrc.omz-uninstalled-20190508233252" ".eclim/" ".fonts/" ".pulse-cookie" "gnu-elpa-keyring-update-2019.3/" "Desktop/" ".mupdf.history" ".pki/" "Downloads/" ".histfile" "../" ".zshrc.zwc.old" ".#orgtest.org" ".cache/" ".vim/" ".wine/" ".eclipse/" ".java/" ".oh-my-zsh/" ".config/" ".xinitrc" ".gnupg/" "#*message*-20190904-205433#" "eclipse-workspace/" "tewi-font/" ".steampid" ".vimrc~" ".dbus/" ".zcompdump.zwc" ".yarn/" ".android/" ".bashrc" ".lesshst" ".ssh/" ".zsh_history" "##orgtest.org##" ".zcompdump" ".steampath" "#test#" "#csharptest#" "foo.png" ".local/" ".zshrc" "siji/" "Android/" ".w3m/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
