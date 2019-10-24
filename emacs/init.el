@@ -131,7 +131,7 @@
     ("04589c18c2087cd6f12c01807eed0bdaa63983787025c209b89c779c61c3a4c4" default)))
  '(package-selected-packages
    (quote
-    (magit mmm-mode vue-mode emmet-mode cherry-blossom-theme gnu-elpa-keyring-update))))
+    (impatient-mode skewer-mode magit mmm-mode vue-mode emmet-mode cherry-blossom-theme gnu-elpa-keyring-update))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
